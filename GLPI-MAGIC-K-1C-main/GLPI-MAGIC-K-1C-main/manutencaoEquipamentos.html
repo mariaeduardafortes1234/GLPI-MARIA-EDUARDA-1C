@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Magic Kingdom - Abertura de Chamado - Manutenção de Equipamentos</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="shortcut icon" href="./img/magic-kingdom-logo-88.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <nav>
+        <ul>
+            <li><a href="./atracoes.html" target="_self">Atrações</a></li>
+            <li><a href="./bilheteria.html" target="_self">Bilheteria</a></li>
+            <li><a href="./manutencaoEquipamentos.html" target="_self">Manutenção de Equipamentos</a></li>
+        </ul>
+        </nav>
+        <header>
+            <img src="./img/Logo-Magic-Kingdom 1.png" alt="Logo Magic Kingdom">
+        </header>
+        <section>
+            <h1>Abertura de Chamado - Manutenção de Equipamentos</h1>
+            <form action="./menu.html" method="POST">
+                <label for="equipamento">Equipamento:</label>
+                <input type="text" id="equipamento" name="equipamento" placeholder="Digite o nome do equipamento">
+    
+                <label for="descricao">Descrição do Problema:</label>
+                <textarea id="descricao" name="descricao" rows="4" required placeholder="Descreva o problema"></textarea>
+    
+                <label for="prioridade">Prioridade:</label>
+                <select id="prioridade" name="prioridade" required>
+                    <option value="">Selecione</option>
+                    <option value="baixa">Alta</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Baixa</option>
+                </select>
+    
+                <label for="anexo">Anexar Arquivo:</label>
+                <input type="file" id="anexo" name="anexo">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <p>Desenvolvido por: Maria Eduarda Fortes de Brito- <a href="#">Repositório</a></p>
+        </footer>
+    </main>
+</body>
+</html>

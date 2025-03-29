@@ -1,0 +1,1 @@
+# GLPI-MAGIC-K-1C
